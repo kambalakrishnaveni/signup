@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Login</h3>
+    <form action="submit.html">
+    <label for="user">username</label>
+    <input type="text" id="user" pattern="[a-z]+[0-9]+@[gmail]+\.[a-z]+" autofocus required><br><br>
+    <label for="use">Password </label>
+    <input type="password" id="use" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,16}" required title="one Uppercase,lowercase,number and a special character"><br><br>
+
+    <button type="submit">Login</button><br><br>
+    </form>
+
+    <a href="pass.html"><button type="button">Forgot Password?</button></a>
+    <a href="signup.html"><button type="button">Sign Up</button> </a>
+   
+</body>
+</html>
